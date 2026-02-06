@@ -1,0 +1,18 @@
+---
+title: "TV Shows Ratings Survey"
+author: "Pascal Hermann Kouogang Tafo"
+format: html
+editor: visual
+---
+
+# Introduction
+
+This assignment was designed to help us learn how to use R to analyze a data set store in a SQL database. In my work, i will focus on creating a table that contains the rating of the 6 recent popular TV-Shows.
+
+# APPROACH
+
+-   In order to complete my assignment, i will use an LLM to help me write a code that will create the ratings table of **five people rating the most recent popular TV-Shows in a scale of 1 to 5** in a SQL database. To generate a more concise code, i will specify in my prompt the characteristics of selection of the shows which will include their relevance, popularity, and availability across major streaming platforms to ensure that the 5 people have already watched at least some, thereby increasing the probability of getting significant ratings. I will also make sure to have to add some missing value since people are selected randomly therefore they might not have watched every show.
+
+-   Once, the ratings table is stored in my SQL database, i will try to load the data from the database into my R environment and that will require me to install some R packages such as **"DBI", "RRySQL"** which are required when connecting to my SQL Database through my R environment.
+
+-   Finally, i will open the loaded data into a data frame and use **tidyverse functions** to clean, and validate before any potential analysis.
